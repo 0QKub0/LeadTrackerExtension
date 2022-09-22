@@ -50,7 +50,9 @@ inputBtn.addEventListener("click",function(){
 });
 
 delLastBtn.addEventListener("click",function(){
-    myLeads.pop();
+    let lastItem = myLeads.pop().value;
+    localStorage.removeItem("leads",lastItem);
+    console.log(lastItem);
     render(myLeads);
 })
 
