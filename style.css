@@ -16,11 +16,16 @@ button{
     background-color: #5f9341;
     color:white;
     padding: 10px 20px;
+    font-weight: 700;
+}
+.buttons__delete{
+    background: none;
+    color:#5f9341;
+    border: 2px solid black;
 }
 ul{
     list-style: none;
     padding-left: 0;
-    
 }
 li{
     margin-top: 5px;
